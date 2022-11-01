@@ -1,0 +1,47 @@
+body {
+    background-color: aliceblue;
+    font-family: 'lucida sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+
+#header {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+}
+
+#header h1 {
+    color: black;  
+}
+
+#header blockquote {
+    background-color: lavender ;
+}
+
+.menu ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+}
+ 
+.gambar {
+    text-align: center;
+}
+
+.bigger {
+    font-size: 20px;
+}
+
+.fp ::first-letter {
+    font-size: 50px;
+    color: aquamarine;
+}
+.koleksi {
+    text-align: center;
+}
+
+.koleksi img {
+    width: 20%;
+}
