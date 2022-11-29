@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 0.5rem;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    margin: 1rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: orangered;
+}
+nav ul li a:hover {
+    border-bottom: 1px solid orangered;
+}
