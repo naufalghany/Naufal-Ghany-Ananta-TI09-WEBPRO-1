@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    padding: 4px;
+    color: rgb(137, 191, 238);
+
+}
+
+.container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex: 1; 
+}
+
+ aside {
+    min-width: 20vw;
+}
+
+footer, header {
+    min-height: 10vh;
+}
+
+nav {
+    background: rgba(0, 0, 255, 0.219);
+    min-width: 20vh;
+}
+
+main  aside {
+    background: rgba(87, 93, 172, 0.911);
+    order: 2; 
+}
+
+header, footer {
+    background: rgb(133, 133, 199);
+    height: 20vh;
+}
+
+header, footer, article, nav, aside {
+    margin: 0px;
+}
+
+article {
+    flex-grow: 1;
+}
